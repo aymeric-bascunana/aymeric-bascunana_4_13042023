@@ -1,0 +1,298 @@
+header {
+  padding: 20px;
+  position: relative;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header nav .logo_site {
+  width: 162px;
+}
+
+.resto_link .nouveau1 {
+  background: #99E2D0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  right: 30px;
+  bottom: 200px;
+  color: #008766;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+}
+.resto_link .nouveau2 {
+  background: #99E2D0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  right: 30px;
+  bottom: -25px;
+  color: #008766;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+}
+.resto_link img {
+  width: 346px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.resto_link h3 {
+  margin: 0px;
+}
+.resto_link p {
+  margin: 0px;
+}
+.resto_link .info-restaurant {
+  display: flex;
+  flex-direction: row;
+  background: white;
+}
+.resto_link .nom-restaurant {
+  margin: 10px 0px 0px 0px;
+}
+.resto_link .fa-heart {
+  margin: 10px 0px 0px 160px;
+}
+
+/*le code css pour la premiere page*/
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+
+.reserver {
+  background-color: #f8f6f6;
+  padding-bottom: 50px;
+}
+.reserver h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+}
+.reserver p {
+  text-align: center;
+  font-size: larger;
+}
+.reserver input {
+  margin-left: 50px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 30px;
+  padding: 20px 50px 20px 50px;
+  color: white;
+  border-style: none;
+  font-size: 15px;
+}
+
+.fonctionnement {
+  margin: 10px;
+}
+.fonctionnement div {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  background: #F7F7F7;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+.fonctionnement p {
+  border-radius: 15px 15px 15px 15px;
+  width: 20px;
+  background: #9356DC;
+  color: white;
+  margin-right: 20px;
+}
+.fonctionnement .fa-mobile-screen-button {
+  color: gray;
+  margin-right: 20px;
+}
+.fonctionnement .fa-list {
+  color: gray;
+  margin-right: 20px;
+}
+.fonctionnement .fa-store {
+  color: #9356DC;
+  margin-right: 20px;
+}
+
+.restaurants {
+  background-color: #f0eeee;
+}
+.restaurants .centre {
+  margin: 10px;
+}
+.restaurants .centre .container-resto {
+  display: flex;
+  flex-direction: column;
+}
+.restaurants .centre .container-resto a {
+  margin-bottom: 10px;
+}
+
+footer {
+  position: relative;
+  background-color: #1d1c1c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 0px 20px;
+}
+footer h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+footer a {
+  margin-bottom: 10px;
+}
+
+/*ici le code css pour le menu 1*/
+.body-menu1 .nav-menu1 .fa-arrow-left {
+  color: #353535;
+  position: absolute;
+  left: 5%;
+  bottom: 40%;
+}
+.body-menu1 .img-menu1 img {
+  width: 375px;
+  height: 275px;
+}
+.body-menu1 .menu {
+  background: #F7F7F7;
+  border-radius: 50px 50px 0px 0px;
+  padding: 1px;
+}
+.body-menu1 .menu h1 {
+  font-family: "Shrikhand";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 41px;
+  margin-left: 10px;
+}
+.body-menu1 .menu h1 span {
+  position: absolute;
+  right: 10%;
+}
+.body-menu1 .menu h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #99E2D0;
+  width: 40px;
+  margin-left: 10px;
+}
+.body-menu1 .menu .bouton-menu1 {
+  background: #FFFFFF;
+  box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  width: 349px;
+  height: 69px;
+  margin: 10px;
+}
+.body-menu1 .menu .bouton-menu1 h3 {
+  margin-left: 10px;
+  padding-top: 10px;
+}
+.body-menu1 .menu .bouton-menu1 .recette {
+  margin: -10px 0px -20px 10px;
+}
+.body-menu1 .menu .bouton-menu1 .prix {
+  margin: -10px 0px -20px 291px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.0431px;
+  line-height: 18px;
+}
+.body-menu1 .menu .bouton-menu1 span {
+  position: absolute;
+  right: 10%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.0431px;
+  line-height: 18px;
+}
+.body-menu1 .menu .bouton-menu2 {
+  background: #FFFFFF;
+  box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  width: 349px;
+  height: 69px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.body-menu1 .menu .bouton-menu2 h3 {
+  margin: 14px 0px 25px 34px;
+}
+.body-menu1 .menu .bouton-menu2 .recette {
+  margin: -20px 0px -15px 33px;
+}
+.body-menu1 .menu .bouton-menu2 .prix {
+  margin: -10px 2px -20px 291px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.0431px;
+  line-height: 18px;
+}
+.body-menu1 .menu .bouton-menu2 span {
+  position: absolute;
+  right: 22%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.0431px;
+  line-height: 18px;
+}
+.body-menu1 .menu .bouton-menu2 .fa-circle-check {
+  width: 59px;
+  height: 69px;
+  background: #99E2D0;
+  border-radius: 0px 15px 15px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.barre_recherche {
+  display: flex;
+  justify-content: center;
+  background: #EAEAEA;
+  padding: 20px 0;
+}
+.barre_recherche #recherche {
+  background: transparent;
+  border: 0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
