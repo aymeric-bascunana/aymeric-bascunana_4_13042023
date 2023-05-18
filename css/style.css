@@ -19,7 +19,7 @@ header nav .logo_site {
   width: 80px;
   height: 29px;
   right: 30px;
-  bottom: 200px;
+  top: 25px;
   color: #008766;
   font-family: "Roboto";
   font-style: normal;
@@ -36,7 +36,7 @@ header nav .logo_site {
   width: 80px;
   height: 29px;
   right: 30px;
-  bottom: -25px;
+  top: 25px;
   color: #008766;
   font-family: "Roboto";
   font-style: normal;
@@ -46,7 +46,7 @@ header nav .logo_site {
   text-align: center;
 }
 .resto_link img {
-  width: 346px;
+  width: 100%;
   height: 170px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
@@ -88,14 +88,18 @@ body {
   text-align: center;
   font-size: larger;
 }
-.reserver input {
-  margin-left: 50px;
+.reserver a {
   background: linear-gradient(#FF79DA, #9356DC);
   border-radius: 30px;
   padding: 20px 50px 20px 50px;
   color: white;
   border-style: none;
   font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 218px;
+  justify-content: center;
+  margin-left: 30px;
 }
 
 .fonctionnement {
@@ -144,6 +148,9 @@ body {
 .restaurants .centre .container-resto a {
   margin-bottom: 10px;
 }
+.restaurants .centre .container-resto .resto_link {
+  position: relative;
+}
 
 footer {
   position: relative;
@@ -174,7 +181,7 @@ footer a {
   bottom: 40%;
 }
 .body-menu1 .img-menu1 img {
-  width: 375px;
+  width: 100%;
   height: 275px;
 }
 .body-menu1 .menu {
