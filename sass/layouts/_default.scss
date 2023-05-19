@@ -84,9 +84,9 @@ body{
 .restaurants{
     
     background-color: #f0eeee;
-
+    padding: 10px;
     .centre{
-        margin: 10px;
+        margin: 10px 10px 0px 10px;
     
 
         .container-resto{
@@ -99,6 +99,7 @@ body{
 
             .resto_link{
                 position: relative;
+                text-decoration: none;
             }
         }
         
@@ -115,7 +116,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 20px 0px 0px 20px;
-    
+   
 
     h2{
         color: white;
@@ -158,6 +159,8 @@ footer{
         background: #F7F7F7;
         border-radius: 50px 50px 0px 0px;
         padding: 1px;
+        position: relative;
+        bottom: 50px;
 
         h1{
             font-family: 'Shrikhand';
@@ -193,23 +196,43 @@ footer{
             width: 349px;
             height: 69px;
             margin: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .colone1{
+                margin: 10px 10px 10px 10px;
+;
+            }
+
+            .colone2{
+                margin: 20px;
+            }
 
             h3{
-                margin-left: 10px;
-                padding-top: 10px;
+                margin: 5px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-size: 18px;
+                line-height: 21px;
+                
             }
 
             .recette{
-                margin: -10px 0px -20px 10px;
+                margin: 5px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15.0431px;
+                line-height: 18px;
             }
-
             .prix{
-                margin: -10px 0px -20px 291px;
                 font-family: "Roboto";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 15.0431px;
                 line-height: 18px;
+                height: 0px;
             }
 
             span{
@@ -234,26 +257,41 @@ footer{
             height: 69px;
             margin: 10px;
             display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-content: flex-end;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .colone1{
+                margin: 10px 10px 10px 10px;
+;
+            }
+
+            
 
             h3{
-                margin: 14px 0px 25px 34px;
+                margin: 5px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-size: 18px;
+                line-height: 21px;
                 
             }
 
             .recette{
-                margin: -20px 0px -15px 33px;
+                margin: 5px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15.0431px;
+                line-height: 18px;
             }
-
             .prix{
-                margin: -10px 2px -20px 291px;
                 font-family: "Roboto";
                 font-style: normal;
                 font-weight: 700;
                 font-size: 15.0431px;
                 line-height: 18px;
+                height: 0px;
             }
             span{
                 position: absolute;
@@ -280,6 +318,16 @@ footer{
         }
     }
 
+    .footer-page{
+        position: relative;
+        background-color: #1d1c1c;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px 0px 20px;
+        position: relative;
+        bottom: 50px;
+    }
     
     
 }

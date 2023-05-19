@@ -53,20 +53,23 @@ header nav .logo_site {
 }
 .resto_link h3 {
   margin: 0px;
+  color: black;
 }
 .resto_link p {
   margin: 0px;
+  color: black;
 }
 .resto_link .info-restaurant {
   display: flex;
-  flex-direction: row;
   background: white;
+  align-items: center;
+  justify-content: space-between;
 }
 .resto_link .nom-restaurant {
   margin: 10px 0px 0px 0px;
 }
 .resto_link .fa-heart {
-  margin: 10px 0px 0px 160px;
+  margin: 20px;
 }
 
 /*le code css pour la premiere page*/
@@ -137,9 +140,10 @@ body {
 
 .restaurants {
   background-color: #f0eeee;
+  padding: 10px;
 }
 .restaurants .centre {
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
 }
 .restaurants .centre .container-resto {
   display: flex;
@@ -150,6 +154,7 @@ body {
 }
 .restaurants .centre .container-resto .resto_link {
   position: relative;
+  text-decoration: none;
 }
 
 footer {
@@ -188,6 +193,8 @@ footer a {
   background: #F7F7F7;
   border-radius: 50px 50px 0px 0px;
   padding: 1px;
+  position: relative;
+  bottom: 50px;
 }
 .body-menu1 .menu h1 {
   font-family: "Shrikhand";
@@ -219,21 +226,38 @@ footer a {
   width: 349px;
   height: 69px;
   margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-menu1 .menu .bouton-menu1 .colone1 {
+  margin: 10px 10px 10px 10px;
+}
+.body-menu1 .menu .bouton-menu1 .colone2 {
+  margin: 20px;
 }
 .body-menu1 .menu .bouton-menu1 h3 {
-  margin-left: 10px;
-  padding-top: 10px;
+  margin: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
 }
 .body-menu1 .menu .bouton-menu1 .recette {
-  margin: -10px 0px -20px 10px;
+  margin: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15.0431px;
+  line-height: 18px;
 }
 .body-menu1 .menu .bouton-menu1 .prix {
-  margin: -10px 0px -20px 291px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 15.0431px;
   line-height: 18px;
+  height: 0px;
 }
 .body-menu1 .menu .bouton-menu1 span {
   position: absolute;
@@ -252,23 +276,34 @@ footer a {
   height: 69px;
   margin: 10px;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-menu1 .menu .bouton-menu2 .colone1 {
+  margin: 10px 10px 10px 10px;
 }
 .body-menu1 .menu .bouton-menu2 h3 {
-  margin: 14px 0px 25px 34px;
+  margin: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
 }
 .body-menu1 .menu .bouton-menu2 .recette {
-  margin: -20px 0px -15px 33px;
+  margin: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15.0431px;
+  line-height: 18px;
 }
 .body-menu1 .menu .bouton-menu2 .prix {
-  margin: -10px 2px -20px 291px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 15.0431px;
   line-height: 18px;
+  height: 0px;
 }
 .body-menu1 .menu .bouton-menu2 span {
   position: absolute;
@@ -288,6 +323,16 @@ footer a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+.body-menu1 .footer-page {
+  position: relative;
+  background-color: #1d1c1c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 0px 20px;
+  position: relative;
+  bottom: 50px;
 }
 
 .barre_recherche {

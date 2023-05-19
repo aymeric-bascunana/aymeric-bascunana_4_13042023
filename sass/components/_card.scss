@@ -44,16 +44,19 @@
 
     h3{
         margin: 0px;
+        color: black;
     }
 
     p{
         margin: 0px;
+        color: black;
     }
 
     .info-restaurant{
         display: flex;
-        flex-direction: row;
         background: white;
+        align-items: center;
+        justify-content: space-between;
     }
     
     .nom-restaurant{
@@ -61,6 +64,6 @@
     }
 
     .fa-heart{
-        margin: 10px 0px 0px 160px;;
+        margin: 20px;
     }
 }
