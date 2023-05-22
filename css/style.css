@@ -64,9 +64,12 @@ header nav .logo_site {
   background: white;
   align-items: center;
   justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .resto_link .nom-restaurant {
   margin: 10px 0px 0px 0px;
+  padding-left: 10px;
 }
 .resto_link .fa-heart {
   margin: 20px;
