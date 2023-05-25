@@ -95,17 +95,19 @@ body {
   font-size: larger;
 }
 .reserver a {
-  background: linear-gradient(#FF79DA, #9356DC);
+  background: linear-gradient(#ff79da, #9356dc);
   border-radius: 30px;
-  padding: 20px 50px 20px 50px;
+  padding: 0px 50px;
   color: white;
   border-style: none;
   font-size: 15px;
   display: flex;
   flex-direction: row;
   width: 218px;
+  height: 50px;
   justify-content: center;
-  margin-left: 30px;
+  margin: auto;
+  align-items: center;
 }
 
 .fonctionnement {
@@ -116,7 +118,7 @@ body {
   border-radius: 20px;
   padding: 10px;
   text-align: center;
-  background: #F7F7F7;
+  background: #f7f7f7;
   display: flex;
   align-items: baseline;
   margin-bottom: 20px;
@@ -137,7 +139,7 @@ body {
   margin-right: 20px;
 }
 .fonctionnement .fa-store {
-  color: #9356DC;
+  color: #9356dc;
   margin-right: 20px;
 }
 
@@ -193,7 +195,7 @@ footer a {
   height: 275px;
 }
 .body-menu1 .menu {
-  background: #F7F7F7;
+  background: #f7f7f7;
   border-radius: 50px 50px 0px 0px;
   padding: 1px;
   position: relative;
@@ -218,26 +220,27 @@ footer a {
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
-  border-bottom: 3px solid #99E2D0;
+  border-bottom: 3px solid #99e2d0;
   width: 40px;
   margin-left: 10px;
 }
 .body-menu1 .menu .bouton-menu1 {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
-  width: 349px;
-  height: 69px;
   margin: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .body-menu1 .menu .bouton-menu1 .colone1 {
-  margin: 10px 10px 10px 10px;
+  padding: 5px;
+  width: 60%;
 }
 .body-menu1 .menu .bouton-menu1 .colone2 {
-  margin: 20px;
+  width: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 .body-menu1 .menu .bouton-menu1 h3 {
   margin: 5px;
@@ -245,22 +248,28 @@ footer a {
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .body-menu1 .menu .bouton-menu1 .recette {
   margin: 5px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  font-size: 15.0431px;
+  font-size: 15px;
   line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .body-menu1 .menu .bouton-menu1 .prix {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 15.0431px;
-  line-height: 18px;
-  height: 0px;
+  font-size: 15px;
+  margin-right: 5px;
+  width: 60%;
 }
 .body-menu1 .menu .bouton-menu1 span {
   position: absolute;
@@ -272,18 +281,22 @@ footer a {
   line-height: 18px;
 }
 .body-menu1 .menu .bouton-menu2 {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
-  width: 349px;
-  height: 69px;
   margin: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .body-menu1 .menu .bouton-menu2 .colone1 {
-  margin: 10px 10px 10px 10px;
+  padding: 5px;
+  width: 60%;
+}
+.body-menu1 .menu .bouton-menu2 .colone2 {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .body-menu1 .menu .bouton-menu2 h3 {
   margin: 5px;
@@ -291,22 +304,28 @@ footer a {
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .body-menu1 .menu .bouton-menu2 .recette {
   margin: 5px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  font-size: 15.0431px;
+  font-size: 15px;
   line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .body-menu1 .menu .bouton-menu2 .prix {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 15.0431px;
-  line-height: 18px;
-  height: 0px;
+  font-size: 15px;
+  margin-right: 5px;
+  width: 60%;
 }
 .body-menu1 .menu .bouton-menu2 span {
   position: absolute;
@@ -314,13 +333,13 @@ footer a {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 15.0431px;
+  font-size: 15px;
   line-height: 18px;
 }
 .body-menu1 .menu .bouton-menu2 .fa-circle-check {
-  width: 59px;
+  width: 20%;
   height: 69px;
-  background: #99E2D0;
+  background: #99e2d0;
   border-radius: 0px 15px 15px 0px;
   display: flex;
   flex-direction: row;

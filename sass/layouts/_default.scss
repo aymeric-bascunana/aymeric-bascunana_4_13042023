@@ -1,335 +1,317 @@
 /*le code css pour la premiere page*/
-body{
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
 }
 
+.reserver {
+  background-color: #f8f6f6;
+  padding-bottom: 50px;
 
+  h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+  }
 
+  p {
+    text-align: center;
+    font-size: larger;
+  }
 
-.reserver{
+  a {
+    background: linear-gradient(#ff79da, #9356dc);
+    border-radius: 30px;
+    padding: 0px 50px;
+    color: white;
+    border-style: none;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 218px;
+    height: 50px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  }
+}
 
-    background-color: #f8f6f6;;
-    padding-bottom: 50px;
+.fonctionnement {
+  margin: 10px;
 
-    h1{
-        text-align: center;
-        padding: 20px;
-        margin: 0px;
+  div {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background: #f7f7f7;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+  }
+
+  p {
+    border-radius: 15px 15px 15px 15px;
+    width: 20px;
+    background: $colorPrimary;
+    color: white;
+    margin-right: 20px;
+  }
+
+  .fa-mobile-screen-button {
+    color: gray;
+    margin-right: 20px;
+  }
+
+  .fa-list {
+    color: gray;
+    margin-right: 20px;
+  }
+
+  .fa-store {
+    color: #9356dc;
+    margin-right: 20px;
+  }
+}
+
+.restaurants {
+  background-color: #f0eeee;
+  padding: 10px;
+  .centre {
+    margin: 10px 10px 0px 10px;
+
+    .container-resto {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        margin-bottom: 10px;
+      }
+
+      .resto_link {
+        position: relative;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+footer {
+  position: relative;
+  background-color: #1d1c1c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 0px 20px;
+
+  h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-family: "Shrikhand";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  a {
+    margin-bottom: 10px;
+  }
+}
+
+/*ici le code css pour le menu 1*/
+
+.body-menu1 {
+  .nav-menu1 {
+    .fa-arrow-left {
+      color: #353535;
+      position: absolute;
+      left: 5%;
+      bottom: 40%;
+    }
+  }
+  .img-menu1 {
+    img {
+      width: 100%;
+      height: 275px;
+    }
+  }
+  .menu {
+    background: #f7f7f7;
+    border-radius: 50px 50px 0px 0px;
+    padding: 1px;
+    position: relative;
+    bottom: 50px;
+
+    h1 {
+      font-family: "Shrikhand";
+      font-style: italic;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 41px;
+      margin-left: 10px;
+
+      span {
+        position: absolute;
+        right: 10%;
+      }
     }
 
-    p{
-        text-align: center;
-        font-size: larger;
-        
+    h2 {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 19px;
+      text-transform: uppercase;
+      border-bottom: 3px solid #99e2d0;
+      width: 40px;
+      margin-left: 10px;
     }
 
-    a{
-        background: linear-gradient(#FF79DA, #9356DC);
-        border-radius: 30px;
-        padding: 20px 50px 20px 50px;
-        color: white;
-        border-style: none;
+    .bouton-menu1 {
+      background: #ffffff;
+      box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      margin: 10px;
+      display: flex;
+      justify-content: space-between;
+
+      .colone1 {
+        padding: 5px;
+        width: 60%;
+      }
+
+      .colone2 {
+        width: 20%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+      }
+
+      h3 {
+        margin: 5px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .recette {
+        margin: 5px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
         font-size: 15px;
+        line-height: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .prix {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        margin-right: 5px;
+        width: 60%;
+      }
+
+      span {
+        position: absolute;
+        right: 10%;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15.0431px;
+        line-height: 18px;
+      }
+    }
+
+    .bouton-menu2 {
+      background: #ffffff;
+      box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      margin: 10px;
+      display: flex;
+      justify-content: space-between;
+
+      .colone1 {
+        padding: 5px;
+        width: 60%;
+      }
+
+      .colone2 {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+
+      h3 {
+        margin: 5px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .recette {
+        margin: 5px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .prix {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        margin-right: 5px;
+        width: 60%;
+      }
+      span {
+        position: absolute;
+        right: 22%;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+      }
+
+      .fa-circle-check {
+        width: 20%;
+        height: 69px;
+        background: #99e2d0;
+        border-radius: 0px 15px 15px 0px;
         display: flex;
         flex-direction: row;
-        width: 218px;
+        align-items: center;
         justify-content: center;
-        margin-left: 30px;
-    }   
- }
-
-
-.fonctionnement{
-
-    margin: 10px;
-
-    div{
-        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
-        border-radius: 20px;
-        padding: 10px;
-        text-align: center;
-        background: #F7F7F7;
-        display: flex;
-        align-items: baseline;
-        margin-bottom: 20px;
+      }
     }
-    
+  }
 
-    p{
-        border-radius: 15px 15px 15px 15px;
-        width: 20px;
-        background: $colorPrimary;
-        color: white;
-        margin-right: 20px;
-    }
-    
-    .fa-mobile-screen-button{
-        color: gray;
-        margin-right: 20px;
-    }
-
-    .fa-list{
-        color: gray;
-        margin-right: 20px;
-    }
-    
-    .fa-store{
-        color: #9356DC;
-        margin-right: 20px;
-    }
-}
-
-
-.restaurants{
-    
-    background-color: #f0eeee;
-    padding: 10px;
-    .centre{
-        margin: 10px 10px 0px 10px;
-    
-
-        .container-resto{
-          display: flex;
-            flex-direction: column;
-
-            a{
-                margin-bottom: 10px;
-            }
-
-            .resto_link{
-                position: relative;
-                text-decoration: none;
-            }
-        }
-        
-    }
-    
-    
-
-}
-
-footer{
+  .footer-page {
     position: relative;
     background-color: #1d1c1c;
     color: white;
     display: flex;
     flex-direction: column;
     padding: 20px 0px 0px 20px;
-   
-
-    h2{
-        color: white;
-        margin-bottom: 20px;
-        font-family: 'Shrikhand';
-        font-style: italic;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 26px;
-    }
-
-    a{
-        margin-bottom: 10px;
-    }
+    position: relative;
+    bottom: 50px;
+  }
 }
-
-/*ici le code css pour le menu 1*/
-
-.body-menu1{
-
-    .nav-menu1{
-        
-        .fa-arrow-left{
-            color: #353535;
-            position: absolute;
-            left: 5%;
-            bottom: 40%;
-        }
-        
-    }
-    .img-menu1{
-
-        img{
-            width: 100%;
-            height: 275px;
-        }
-    }    
-    .menu{
-       
-        background: #F7F7F7;
-        border-radius: 50px 50px 0px 0px;
-        padding: 1px;
-        position: relative;
-        bottom: 50px;
-
-        h1{
-            font-family: 'Shrikhand';
-            font-style: italic;
-            font-weight: 400;
-            font-size: 28px;
-            line-height: 41px;
-            margin-left: 10px;
-           
-            span{
-                position: absolute;
-                right: 10%;
-            }
-        }
-
-        h2{
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 16px;
-            line-height: 19px;
-            text-transform: uppercase;
-            border-bottom: 3px solid #99E2D0;
-            width: 40px;
-            margin-left: 10px;
-        }
-
-
-        .bouton-menu1{
-            background: #FFFFFF;
-            box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
-            border-radius: 15px;
-            width: 349px;
-            height: 69px;
-            margin: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            .colone1{
-                margin: 10px 10px 10px 10px;
-;
-            }
-
-            .colone2{
-                margin: 20px;
-            }
-
-            h3{
-                margin: 5px;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-size: 18px;
-                line-height: 21px;
-                
-            }
-
-            .recette{
-                margin: 5px;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 300;
-                font-size: 15.0431px;
-                line-height: 18px;
-            }
-            .prix{
-                font-family: "Roboto";
-                font-style: normal;
-                font-weight: 700;
-                font-size: 15.0431px;
-                line-height: 18px;
-                height: 0px;
-            }
-
-            span{
-                position: absolute;
-                right: 10%;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 15.0431px;
-                line-height: 18px;
-            }
-
-            
-        }
-
-
-        .bouton-menu2{
-            background: #FFFFFF;
-            box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
-            border-radius: 15px;
-            width: 349px;
-            height: 69px;
-            margin: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-
-            .colone1{
-                margin: 10px 10px 10px 10px;
-;
-            }
-
-            
-
-            h3{
-                margin: 5px;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-size: 18px;
-                line-height: 21px;
-                
-            }
-
-            .recette{
-                margin: 5px;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 300;
-                font-size: 15.0431px;
-                line-height: 18px;
-            }
-            .prix{
-                font-family: "Roboto";
-                font-style: normal;
-                font-weight: 700;
-                font-size: 15.0431px;
-                line-height: 18px;
-                height: 0px;
-            }
-            span{
-                position: absolute;
-                right: 22%;
-                font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 15.0431px;
-                line-height: 18px;
-            }
-
-            .fa-circle-check{
-                
-                width: 59px;
-                height: 69px;
-                background: #99E2D0;
-                border-radius: 0px 15px 15px 0px;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-            
-            }
-        }
-    }
-
-    .footer-page{
-        position: relative;
-        background-color: #1d1c1c;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        padding: 20px 0px 0px 20px;
-        position: relative;
-        bottom: 50px;
-    }
-    
-    
-}
-
-
