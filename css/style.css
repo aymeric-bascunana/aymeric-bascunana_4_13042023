@@ -12,7 +12,7 @@ header nav .logo_site {
 }
 
 .resto_link .nouveau1 {
-  background: #99E2D0;
+  background: #99e2d0;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
   border-radius: 2px;
   position: absolute;
@@ -29,7 +29,7 @@ header nav .logo_site {
   text-align: center;
 }
 .resto_link .nouveau2 {
-  background: #99E2D0;
+  background: #99e2d0;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
   border-radius: 2px;
   position: absolute;
@@ -71,9 +71,6 @@ header nav .logo_site {
   margin: 10px 0px 0px 0px;
   padding-left: 10px;
 }
-.resto_link .fa-heart {
-  margin: 20px;
-}
 
 /*le code css pour la premiere page*/
 body {
@@ -93,21 +90,6 @@ body {
 .reserver p {
   text-align: center;
   font-size: larger;
-}
-.reserver a {
-  background: linear-gradient(#ff79da, #9356dc);
-  border-radius: 30px;
-  padding: 0px 50px;
-  color: white;
-  border-style: none;
-  font-size: 15px;
-  display: flex;
-  flex-direction: row;
-  width: 218px;
-  height: 50px;
-  justify-content: center;
-  margin: auto;
-  align-items: center;
 }
 
 .fonctionnement {
@@ -367,6 +349,34 @@ footer a {
   background: transparent;
   border: 0;
   text-align: center;
+}
+
+.bouton {
+  background: linear-gradient(#ff79da, #9356dc);
+  border-radius: 30px;
+  padding: 0px 50px;
+  color: white;
+  border-style: none;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 218px;
+  height: 50px;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.bouton:hover {
+  opacity: 90%;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.fa-heart {
+  margin: 20px;
+}
+.fa-heart:active {
+  transform: scaleX(1);
 }
 
 /*# sourceMappingURL=style.css.map */
