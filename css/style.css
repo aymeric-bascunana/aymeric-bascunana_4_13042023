@@ -327,6 +327,12 @@ footer a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+}
+.body-menu1 .menu .bouton-menu2 .fa-circle-check :hover:hover {
+  transform: scaleX(1);
+  opacity: 1;
+  transform-origin: 10%;
 }
 .body-menu1 .footer-page {
   position: relative;
@@ -372,11 +378,31 @@ footer a {
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
 }
 
-.fa-heart {
+.animation-icones {
+  position: absolute;
+  height: 55px;
+  right: 20px;
+  bottom: 10px;
+}
+
+.heart-vide {
+  position: absolute;
+  right: 0px;
   margin: 20px;
 }
-.fa-heart:active {
-  transform: scaleX(1);
+
+.heart-rempli {
+  position: absolute;
+  opacity: 0;
+  right: 20px;
+  bottom: 19px;
+  transition-property: all;
+  transition-duration: 1ms;
+}
+
+.heart-rempli :hover {
+  opacity: 1;
+  color: #9356DC #FF79DA;
 }
 
 /*# sourceMappingURL=style.css.map */

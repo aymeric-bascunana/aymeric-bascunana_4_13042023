@@ -275,6 +275,7 @@ footer {
         line-height: 18px;
       }
 
+      //partie animation//
       .fa-circle-check {
         width: 20%;
         height: 69px;
@@ -284,6 +285,15 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        opacity: 0;
+      }
+
+      .fa-circle-check :hover {
+        &:hover {
+          transform: scaleX(1);
+          opacity: 1;
+          transform-origin: 10%;
+        }
       }
     }
   }

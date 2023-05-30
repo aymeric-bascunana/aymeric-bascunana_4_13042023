@@ -19,9 +19,28 @@
   }
 }
 
-.fa-heart {
+.animation-icones {
+  position: absolute;
+  height: 55px;
+  right: 20px;
+  bottom: 10px;
+}
+.heart-vide {
+  position: absolute;
+  right: 0px;
   margin: 20px;
-  &:active {
-    transform: scaleX(1);
-  }
+}
+
+.heart-rempli {
+  position: absolute;
+  opacity: 0;
+  right: 20px;
+  bottom: 19px;
+  transition-property: all;
+  transition-duration: 1ms;
+}
+
+.heart-rempli :hover {
+  opacity: 1;
+  color: #9356DC#FF79DA;
 }
