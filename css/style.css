@@ -329,10 +329,11 @@ footer a {
   justify-content: center;
   opacity: 0;
 }
-.body-menu1 .menu .bouton-menu2 .fa-circle-check :hover:hover {
-  transform: scaleX(1);
+.body-menu1 .menu .bouton-menu2 .fa-circle-check:hover {
+  transform: translateX(1);
   opacity: 1;
-  transform-origin: 10%;
+  transform-origin: right 50%;
+  transition-duration: 500ms;
 }
 .body-menu1 .footer-page {
   position: relative;

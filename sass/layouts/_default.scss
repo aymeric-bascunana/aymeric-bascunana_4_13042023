@@ -286,13 +286,12 @@ footer {
         align-items: center;
         justify-content: center;
         opacity: 0;
-      }
 
-      .fa-circle-check :hover {
         &:hover {
-          transform: scaleX(1);
+          transform: translateX(1);
           opacity: 1;
-          transform-origin: 10%;
+          transform-origin: right 50%;
+          transition-duration: 500ms;
         }
       }
     }
