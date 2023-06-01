@@ -20,27 +20,24 @@
 }
 
 .animation-icones {
-  position: absolute;
   height: 55px;
   right: 20px;
   bottom: 10px;
 }
 .heart-vide {
   position: absolute;
-  right: 0px;
-  margin: 20px;
+  right: 20px;
+  top: 20px;
 }
 
 .heart-rempli {
   position: absolute;
   opacity: 0;
   right: 20px;
-  bottom: 19px;
-  transition-property: all;
-  transition-duration: 1ms;
+  top: 20px;
+  color: #9356DC#FF79DA;
 }
 
-.heart-rempli :hover {
+.heart-rempli:hover {
   opacity: 1;
-  color: #9356DC#FF79DA;
 }

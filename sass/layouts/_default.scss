@@ -223,6 +223,11 @@ footer {
       display: flex;
       justify-content: space-between;
 
+      &:hover .fa-circle-check {
+        width: 20%;
+        transition: 200ms;
+      }
+
       .colone1 {
         padding: 5px;
         width: 60%;
@@ -277,7 +282,7 @@ footer {
 
       //partie animation//
       .fa-circle-check {
-        width: 20%;
+        width: 0%;
         height: 69px;
         background: #99e2d0;
         border-radius: 0px 15px 15px 0px;
@@ -285,14 +290,7 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        opacity: 0;
-
-        &:hover {
-          transform: translateX(1);
-          opacity: 1;
-          transform-origin: right 50%;
-          transition-duration: 500ms;
-        }
+        transition: 200ms;
       }
     }
   }
