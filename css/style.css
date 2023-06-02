@@ -274,9 +274,13 @@ footer a {
 .body-menu1 .menu .bouton-menu2:hover .fa-circle-check {
   width: 20%;
   transition: 200ms;
+  color: white;
 }
 .body-menu1 .menu .bouton-menu2 .colone1 {
   padding: 5px;
+  width: 80%;
+}
+.body-menu1 .menu .bouton-menu2:hover .colone1 {
   width: 60%;
 }
 .body-menu1 .menu .bouton-menu2 .colone2 {
@@ -333,6 +337,7 @@ footer a {
   align-items: center;
   justify-content: center;
   transition: 200ms;
+  color: transparent;
 }
 .body-menu1 .footer-page {
   position: relative;
@@ -396,6 +401,7 @@ footer a {
   right: 20px;
   top: 20px;
   color: #9356DC #FF79DA;
+  transition: all;
 }
 
 .heart-rempli:hover {
