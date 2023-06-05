@@ -19,6 +19,11 @@
   }
 }
 
+.fa-heart {
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
 .animation-icones {
   height: 55px;
   right: 20px;
@@ -35,10 +40,30 @@
   opacity: 0;
   right: 20px;
   top: 20px;
-  color: #9356DC#FF79DA;
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  color: transparent;
+  -webkit-background-clip: text;
   transition: all;
 }
 
 .heart-rempli:hover {
   opacity: 1;
+}
+
+@keyframes bouton {
+  0% {
+    transition: 1ms;
+  }
+
+  100% {
+    transition: 1ms;
+  }
+}
+
+.bouton-menu:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.bouton-menu:nth-child(2) {
+  animation-delay: 0.2s;
 }

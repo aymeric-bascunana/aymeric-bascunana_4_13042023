@@ -207,7 +207,7 @@ footer a {
   width: 40px;
   margin-left: 10px;
 }
-.body-menu1 .menu .bouton-menu1 {
+.body-menu1 .menu .bouton-menu {
   background: #ffffff;
   box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
@@ -215,81 +215,25 @@ footer a {
   display: flex;
   justify-content: space-between;
 }
-.body-menu1 .menu .bouton-menu1 .colone1 {
-  padding: 5px;
-  width: 60%;
-}
-.body-menu1 .menu .bouton-menu1 .colone2 {
-  width: 20%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-.body-menu1 .menu .bouton-menu1 h3 {
-  margin: 5px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-size: 18px;
-  line-height: 21px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.body-menu1 .menu .bouton-menu1 .recette {
-  margin: 5px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 18px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.body-menu1 .menu .bouton-menu1 .prix {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  margin-right: 5px;
-  width: 60%;
-}
-.body-menu1 .menu .bouton-menu1 span {
-  position: absolute;
-  right: 10%;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15.0431px;
-  line-height: 18px;
-}
-.body-menu1 .menu .bouton-menu2 {
-  background: #ffffff;
-  box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
-  margin: 10px;
-  display: flex;
-  justify-content: space-between;
-}
-.body-menu1 .menu .bouton-menu2:hover .fa-circle-check {
+.body-menu1 .menu .bouton-menu:hover .fa-circle-check {
   width: 20%;
   transition: 200ms;
   color: white;
 }
-.body-menu1 .menu .bouton-menu2 .colone1 {
+.body-menu1 .menu .bouton-menu .colone1 {
   padding: 5px;
   width: 80%;
 }
-.body-menu1 .menu .bouton-menu2:hover .colone1 {
+.body-menu1 .menu .bouton-menu:hover .colone1 {
   width: 60%;
 }
-.body-menu1 .menu .bouton-menu2 .colone2 {
+.body-menu1 .menu .bouton-menu .colone2 {
   width: 20%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
-.body-menu1 .menu .bouton-menu2 h3 {
+.body-menu1 .menu .bouton-menu h3 {
   margin: 5px;
   font-family: "Roboto";
   font-style: normal;
@@ -299,7 +243,7 @@ footer a {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.body-menu1 .menu .bouton-menu2 .recette {
+.body-menu1 .menu .bouton-menu .recette {
   margin: 5px;
   font-family: "Roboto";
   font-style: normal;
@@ -310,7 +254,7 @@ footer a {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.body-menu1 .menu .bouton-menu2 .prix {
+.body-menu1 .menu .bouton-menu .prix {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -318,7 +262,7 @@ footer a {
   margin-right: 5px;
   width: 60%;
 }
-.body-menu1 .menu .bouton-menu2 span {
+.body-menu1 .menu .bouton-menu span {
   position: absolute;
   right: 22%;
   font-family: "Roboto";
@@ -327,7 +271,7 @@ footer a {
   font-size: 15px;
   line-height: 18px;
 }
-.body-menu1 .menu .bouton-menu2 .fa-circle-check {
+.body-menu1 .menu .bouton-menu .fa-circle-check {
   width: 0%;
   height: 69px;
   background: #99e2d0;
@@ -383,6 +327,12 @@ footer a {
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
 }
 
+.fa-heart {
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
 .animation-icones {
   height: 55px;
   right: 20px;
@@ -400,12 +350,30 @@ footer a {
   opacity: 0;
   right: 20px;
   top: 20px;
-  color: #9356DC #FF79DA;
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  color: transparent;
+  -webkit-background-clip: text;
   transition: all;
 }
 
 .heart-rempli:hover {
   opacity: 1;
+}
+
+@keyframes bouton {
+  0% {
+    transition: 1ms;
+  }
+  100% {
+    transition: 1ms;
+  }
+}
+.bouton-menu:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.bouton-menu:nth-child(2) {
+  animation-delay: 0.2s;
 }
 
 /*# sourceMappingURL=style.css.map */
