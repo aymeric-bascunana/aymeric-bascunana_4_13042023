@@ -19,6 +19,7 @@
   }
 }
 
+//animation des coeur//
 .fa-heart {
   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   color: transparent;
@@ -33,6 +34,8 @@
   position: absolute;
   right: 20px;
   top: 20px;
+  background: black;
+  -webkit-background-clip: text;
 }
 
 .heart-rempli {
@@ -43,13 +46,13 @@
   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   color: transparent;
   -webkit-background-clip: text;
-  transition: all;
 }
 
 .heart-rempli:hover {
   opacity: 1;
 }
 
+//animation des menus de la page//
 @keyframes bouton {
   0% {
     transition: 1ms;
@@ -66,4 +69,34 @@
 
 .bouton-menu:nth-child(2) {
   animation-delay: 0.2s;
+}
+
+//animation du loader//
+.progress {
+  &__bar {
+    animation: progress-bar 1000ms;
+  }
+}
+
+@keyframes progress-bar {
+  0% {
+    transform: scaleX(0);
+    opacity: 0.1;
+  }
+  17% {
+    transform: scaleX(0.18);
+  }
+  24% {
+    transform: scaleX(0.4);
+  }
+  46% {
+    transform: scaleX(0.81);
+  }
+  85%,
+  100% {
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }

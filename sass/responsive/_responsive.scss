@@ -1,0 +1,12 @@
+@media (min-width: 500px) {
+  .fonctionnement {
+    .bouton-fonction {
+      display: flex;
+      box-shadow: none;
+      border-radius: 0px;
+      padding: 0px;
+      background: white;
+      justify-content: space-evenly;
+    }
+  }
+}
