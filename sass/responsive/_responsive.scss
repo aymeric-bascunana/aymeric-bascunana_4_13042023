@@ -1,6 +1,6 @@
 @media (min-width: 500px) {
   .fonctionnement {
-    .bouton-fonction {
+    .block-fonction {
       display: flex;
       box-shadow: none;
       border-radius: 0px;
@@ -8,5 +8,15 @@
       background: white;
       justify-content: space-evenly;
     }
+  }
+
+  .restaurants {
+    .container-resto {
+      display: flex;
+    }
+  }
+
+  footer {
+    display: flex;
   }
 }
