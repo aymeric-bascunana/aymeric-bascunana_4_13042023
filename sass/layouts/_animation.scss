@@ -53,26 +53,43 @@
 }
 
 //animation des menus de la page//
-@keyframes bouton {
+
+@keyframes bouton-menu {
   0% {
-    transition: 1ms;
+    opacity: 0;
   }
 
   100% {
-    transition: 1ms;
+    opacity: 1;
   }
 }
 
-.bouton-menu:nth-child(1) {
-  animation-delay: 0.1s;
+.bouton-menu {
+  animation: bouton-menu 2s;
+  opacity: 1;
 }
 
 .bouton-menu:nth-child(2) {
-  animation-delay: 0.2s;
+  animation-name: bouton-menu;
+
+  animation-duration: 1000ms;
+  opacity: 1;
 }
 
 //animation du loader//
+
+.container {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+  background: black;
+  display: none;
+}
+
 .progress {
+  width: 100%;
+  height: 100%;
   &__bar {
     animation: progress-bar 1000ms;
   }
