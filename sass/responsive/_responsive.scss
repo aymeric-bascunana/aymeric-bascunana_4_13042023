@@ -13,10 +13,19 @@
   .restaurants {
     .centre .container-resto {
       display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: row;
     }
   }
 
   footer {
     display: flex;
+    flex-direction: row-reverse;
+    h2 {
+      display: flex;
+      flex-direction: row-reverse;
+    }
   }
 }
