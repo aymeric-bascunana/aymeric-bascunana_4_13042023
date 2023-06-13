@@ -190,7 +190,6 @@ footer a {
   font-family: "Shrikhand";
   font-style: italic;
   font-weight: 400;
-  font-size: 28px;
   line-height: 41px;
   margin-left: 10px;
 }
@@ -212,7 +211,7 @@ footer a {
   width: 40px;
   margin-left: 10px;
 }
-.body-menu1 .menu .bouton-menu {
+.body-menu1 .menu .block-menu {
   background: #ffffff;
   box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
@@ -220,25 +219,25 @@ footer a {
   display: flex;
   justify-content: space-between;
 }
-.body-menu1 .menu .bouton-menu:hover .fa-circle-check {
+.body-menu1 .menu .block-menu:hover .fa-circle-check {
   width: 20%;
   transition: 200ms;
   color: white;
 }
-.body-menu1 .menu .bouton-menu .colone1 {
+.body-menu1 .menu .block-menu .nom-menu {
   padding: 5px;
   width: 80%;
 }
-.body-menu1 .menu .bouton-menu:hover .colone1 {
+.body-menu1 .menu .block-menu:hover .colone1 {
   width: 60%;
 }
-.body-menu1 .menu .bouton-menu .colone2 {
+.body-menu1 .menu .block-menu .prix-menu {
   width: 20%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
-.body-menu1 .menu .bouton-menu h3 {
+.body-menu1 .menu .block-menu h3 {
   margin: 5px;
   font-family: "Roboto";
   font-style: normal;
@@ -248,7 +247,7 @@ footer a {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.body-menu1 .menu .bouton-menu .recette {
+.body-menu1 .menu .block-menu .recette {
   margin: 5px;
   font-family: "Roboto";
   font-style: normal;
@@ -259,7 +258,7 @@ footer a {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.body-menu1 .menu .bouton-menu .prix {
+.body-menu1 .menu .block-menu .prix {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -267,7 +266,7 @@ footer a {
   margin-right: 5px;
   width: 60%;
 }
-.body-menu1 .menu .bouton-menu span {
+.body-menu1 .menu .block-menu span {
   position: absolute;
   right: 22%;
   font-family: "Roboto";
@@ -276,7 +275,7 @@ footer a {
   font-size: 15px;
   line-height: 18px;
 }
-.body-menu1 .menu .bouton-menu .fa-circle-check {
+.body-menu1 .menu .block-menu .fa-circle-check {
   width: 0%;
   height: 69px;
   background: #99e2d0;
@@ -374,12 +373,12 @@ footer a {
     opacity: 1;
   }
 }
-.bouton-menu {
+.block-menu {
   animation: bouton-menu 2s;
   opacity: 1;
 }
 
-.bouton-menu:nth-child(2) {
+.block-menu:nth-child(2) {
   animation-name: bouton-menu;
   animation-duration: 1000ms;
   opacity: 1;
@@ -462,6 +461,14 @@ footer a {
   .body-menu1 .menu {
     width: 70%;
     margin-left: 180px;
+  }
+  .body-menu1 .menu h1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .body-menu1 .menu h1 span {
+    position: absolute;
+    right: 300px;
   }
 }
 

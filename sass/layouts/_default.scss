@@ -133,7 +133,7 @@ footer {
       font-family: "Shrikhand";
       font-style: italic;
       font-weight: 400;
-      font-size: 28px;
+
       line-height: 41px;
       margin-left: 10px;
 
@@ -159,7 +159,7 @@ footer {
       margin-left: 10px;
     }
 
-    .bouton-menu {
+    .block-menu {
       background: #ffffff;
       box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
       border-radius: 15px;
@@ -173,14 +173,14 @@ footer {
         color: white;
       }
 
-      .colone1 {
+      .nom-menu {
         padding: 5px;
         width: 80%;
       }
       &:hover .colone1 {
         width: 60%;
       }
-      .colone2 {
+      .prix-menu {
         width: 20%;
         display: flex;
         justify-content: flex-end;

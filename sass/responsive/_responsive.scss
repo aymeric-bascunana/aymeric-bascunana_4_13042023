@@ -48,4 +48,12 @@
     width: 70%;
     margin-left: 180px;
   }
+  .body-menu1 .menu h1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .body-menu1 .menu h1 span {
+    position: absolute;
+    right: 300px;
+  }
 }

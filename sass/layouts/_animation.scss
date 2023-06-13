@@ -64,12 +64,12 @@
   }
 }
 
-.bouton-menu {
+.block-menu {
   animation: bouton-menu 2s;
   opacity: 1;
 }
 
-.bouton-menu:nth-child(2) {
+.block-menu:nth-child(2) {
   animation-name: bouton-menu;
 
   animation-duration: 1000ms;
