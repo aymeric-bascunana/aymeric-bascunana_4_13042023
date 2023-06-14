@@ -159,7 +159,7 @@ footer {
       margin-left: 10px;
     }
 
-    .block-menu {
+    .block-menu1 {
       background: #ffffff;
       box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
       border-radius: 15px;
@@ -227,7 +227,88 @@ footer {
         line-height: 18px;
       }
 
-      //partie animation//
+      .fa-circle-check {
+        width: 0%;
+        height: 69px;
+        background: #99e2d0;
+        border-radius: 0px 15px 15px 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        transition: 200ms;
+        color: transparent;
+      }
+    }
+
+    .block-menu2 {
+      background: #ffffff;
+      box-shadow: 0px 4.01149px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      margin: 10px;
+      display: flex;
+      justify-content: space-between;
+
+      &:hover .fa-circle-check {
+        width: 20%;
+        transition: 200ms;
+        color: white;
+      }
+
+      .nom-menu {
+        padding: 5px;
+        width: 80%;
+      }
+      &:hover .colone1 {
+        width: 60%;
+      }
+      .prix-menu {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+
+      h3 {
+        margin: 5px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .recette {
+        margin: 5px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .prix {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        margin-right: 5px;
+        width: 60%;
+      }
+      span {
+        position: absolute;
+        right: 22%;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+      }
+
       .fa-circle-check {
         width: 0%;
         height: 69px;

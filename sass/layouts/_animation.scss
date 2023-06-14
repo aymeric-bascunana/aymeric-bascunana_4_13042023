@@ -46,12 +46,12 @@
   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   color: transparent;
   -webkit-background-clip: text;
+  transition: 200ms;
 }
 
 .heart-rempli:hover {
   opacity: 1;
 }
-
 //animation des menus de la page//
 
 @keyframes bouton-menu {
@@ -64,15 +64,17 @@
   }
 }
 
-.block-menu {
+.block-menu1 {
   animation: bouton-menu 2s;
   opacity: 1;
+  transition: 500ms;
+  animation-duration: 1000ms;
 }
 
-.block-menu:nth-child(2) {
-  animation-name: bouton-menu;
-
-  animation-duration: 1000ms;
+.block-menu2 {
+  animation: bouton-menu 3s;
+  transition: 1000ms;
+  animation-duration: 2000ms;
   opacity: 1;
 }
 
