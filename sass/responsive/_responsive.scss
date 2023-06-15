@@ -17,9 +17,13 @@
       justify-content: space-between;
       flex-wrap: wrap;
       flex-direction: row;
+      gap: 20px;
     }
   }
 
+  .restaurants .centre .container-resto .resto_link {
+    width: 48%;
+  }
   footer {
     display: flex;
     align-items: center;
