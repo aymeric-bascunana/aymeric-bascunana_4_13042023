@@ -9,7 +9,10 @@
       justify-content: space-evenly;
     }
   }
-
+  .fonctionnement .bouton-fonction {
+    width: 20%;
+    height: 50px;
+  }
   .restaurants {
     .centre .container-resto {
       display: flex;
@@ -38,7 +41,7 @@
 
     a {
       position: relative;
-      left: 150px;
+      left: 240px;
       margin: 10px;
     }
   }
