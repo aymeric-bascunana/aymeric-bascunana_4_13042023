@@ -92,11 +92,11 @@
 }
 
 .progress {
+  border: 10px solid red;
+  position: relative;
+  top: 400px;
   width: 100%;
-  height: 100%;
-  &__bar {
-    animation: progress-bar 1000ms;
-  }
+  height: 30px;
 }
 
 @keyframes progress-bar {
@@ -113,7 +113,7 @@
   46% {
     transform: scaleX(0.81);
   }
-  85%,
+
   100% {
     opacity: 1;
   }
