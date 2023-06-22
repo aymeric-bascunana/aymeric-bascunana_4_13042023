@@ -32,6 +32,21 @@
       <div class="progress">
         <div class="progress__bar"></div>
       </div>
+      <div class="showbox">
+        <div class="loader">
+          <svg class="circular" viewBox="25 25 50 50">
+            <circle
+              class="path"
+              cx="50"
+              cy="50"
+              r="20"
+              fill="none"
+              stroke-width="2"
+              stroke-miterlimit="10"
+            />
+          </svg>
+        </div>
+      </div>
     </div>
     <header>
       <nav>
@@ -117,8 +132,10 @@
                   <h3>La note enchantée</h3>
                   <p>Charonne</p>
                 </div>
-
-                <i class="fa-solid fa-heart"></i>
+                <div class="animation-icones">
+                  <i class="fa-regular fa-heart heart-vide"></i>
+                  <i class="fa-solid fa-heart heart-rempli"></i>
+                </div>
               </div>
             </div>
           </a>
@@ -134,7 +151,10 @@
                   <h3>À la française</h3>
                   <p>Cité Rouge</p>
                 </div>
-                <i class="fa-regular fa-heart heart-vide"></i>
+                <div class="animation-icones">
+                  <i class="fa-regular fa-heart heart-vide"></i>
+                  <i class="fa-solid fa-heart heart-rempli"></i>
+                </div>
               </div>
             </div>
           </a>
@@ -150,7 +170,10 @@
                   <h3>Le délice des sens</h3>
                   <p>Folie-Méricourt</p>
                 </div>
-                <i class="fa-regular fa-heart heart-vide"></i>
+                <div class="animation-icones">
+                  <i class="fa-regular fa-heart heart-vide"></i>
+                  <i class="fa-solid fa-heart heart-rempli"></i>
+                </div>
               </div>
             </div>
           </a>
@@ -164,7 +187,7 @@
       <a> <i class="fa-solid fa-utensils"></i> Proposer un restaurants</a>
       <a> <i class="fa-solid fa-handshake-angle"></i> Devenir partenaire</a>
       <a>Mentions légales</a>
-      <a>Contact</a>
+      <a href="mailto:aymeric@projet4.com">Contact</a>
     </footer>
   </body>
 </html>

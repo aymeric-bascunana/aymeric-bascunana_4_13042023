@@ -80,6 +80,62 @@
   opacity: 1;
 }
 
+.anim-menu-3 {
+  animation: bouton-menu 4s;
+  transition: 1000ms;
+  animation-duration: 3000ms;
+  opacity: 1;
+}
+
+.anim-menu-4 {
+  animation: bouton-menu 5s;
+  transition: 1000ms;
+  animation-duration: 4000ms;
+  opacity: 1;
+}
+
+.anim-menu-5 {
+  animation: bouton-menu 6s;
+  transition: 1000ms;
+  animation-duration: 5000ms;
+  opacity: 1;
+}
+
+.anim-menu-6 {
+  animation: bouton-menu 7s;
+  transition: 1000ms;
+  animation-duration: 6000ms;
+  opacity: 1;
+}
+
+.anim-menu-7 {
+  animation: bouton-menu 8s;
+  transition: 1000ms;
+  animation-duration: 7000ms;
+  opacity: 1;
+}
+
+.anim-menu-8 {
+  animation: bouton-menu 9s;
+  transition: 1000ms;
+  animation-duration: 8000ms;
+  opacity: 1;
+}
+
+.anim-menu-9 {
+  animation: bouton-menu 10s;
+  transition: 1000ms;
+  animation-duration: 9000ms;
+  opacity: 1;
+}
+
+.anim-menu-10 {
+  animation: bouton-menu 11s;
+  transition: 1000ms;
+  animation-duration: 10000ms;
+  opacity: 1;
+}
+
 //animation du loader//
 
 .container {
@@ -87,37 +143,90 @@
   position: fixed;
   height: 100%;
   z-index: 1;
-  background: black;
+  background: white;
   display: none;
 }
 
-.progress {
-  border: 10px solid red;
-  position: relative;
-  top: 400px;
-  width: 100%;
-  height: 30px;
+.container: {
+  display: block;
 }
 
-@keyframes progress-bar {
-  0% {
-    transform: scaleX(0);
-    opacity: 0.1;
+.loader {
+  position: relative;
+  margin: 0 auto;
+  width: $width;
+  &:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
   }
-  17% {
-    transform: scaleX(0.18);
-  }
-  24% {
-    transform: scaleX(0.4);
-  }
-  46% {
-    transform: scaleX(0.81);
-  }
+}
 
+.circular {
+  animation: rotate 2s linear infinite;
+  height: 100%;
+  transform-origin: center center;
+  width: 100%;
+  position: absolute;
+  top: 300px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.path {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+}
+
+@keyframes rotate {
   100% {
-    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
   }
   100% {
-    transform: scaleX(1);
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
   }
+}
+
+@keyframes color {
+  100%,
+  0% {
+    stroke: $red;
+  }
+  40% {
+    stroke: $blue;
+  }
+  66% {
+    stroke: $green;
+  }
+  80%,
+  90% {
+    stroke: $yellow;
+  }
+}
+
+// demo-specific
+
+.showbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5%;
 }
