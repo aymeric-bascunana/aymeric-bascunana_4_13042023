@@ -1,5 +1,9 @@
 @media (min-width: 500px) {
   .fonctionnement {
+    h2 {
+      position: relative;
+      left: 130px;
+    }
     .block-fonction {
       display: flex;
       box-shadow: none;
@@ -62,5 +66,14 @@
   .body-menu1 .menu h1 span {
     position: absolute;
     right: 300px;
+  }
+
+  .body-menu1 .menu h2 {
+    margin-left: 180px;
+  }
+
+  .body-menu1 .menu .block-menu {
+    margin-right: 200px;
+    margin-left: 200px;
   }
 }

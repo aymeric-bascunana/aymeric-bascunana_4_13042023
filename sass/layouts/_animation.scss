@@ -145,10 +145,12 @@
   z-index: 1;
   background: white;
   display: none;
-}
 
-.container: {
-  display: block;
+  h1 {
+    position: absolute;
+    left: 590px;
+    top: 410px;
+  }
 }
 
 .loader {
