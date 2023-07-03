@@ -48,11 +48,12 @@
   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   color: transparent;
   -webkit-background-clip: text;
-  transition: 200ms;
+  transition: all 800ms;
 }
 
 .heart-rempli:hover {
   opacity: 1;
+  transition: all 800ms;
 }
 //animation des menus de la page//
 
@@ -144,12 +145,12 @@
   height: 100%;
   z-index: 1;
   background: white;
-  display: none;
+  // display: none;
 
   h1 {
     position: absolute;
-    left: 590px;
-    top: 410px;
+    left: 853px;
+    top: 430px;
   }
 }
 
@@ -231,4 +232,23 @@
   left: 0;
   right: 0;
   padding: 5%;
+}
+
+.loader_container {
+  animation: loader 3s forwards;
+}
+
+@keyframes loader {
+  0% {
+    opacity: 1;
+    visibility: inherit;
+  }
+  90% {
+    opacity: 1;
+    visibility: inherit;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
 }

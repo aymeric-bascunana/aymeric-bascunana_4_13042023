@@ -107,6 +107,7 @@ body {
   display: flex;
   align-items: baseline;
   margin-bottom: 20px;
+  width: 21%;
 }
 .fonctionnement p {
   border-radius: 15px 15px 15px 15px;
@@ -197,10 +198,8 @@ footer a {
   font-weight: 400;
   line-height: 41px;
   margin-left: 10px;
-}
-.body-menu1 .menu h1 span {
-  position: absolute;
-  right: 10%;
+  display: flex;
+  gap: 50px;
 }
 .body-menu1 .menu h1 .heart-page {
   color: black;
@@ -365,11 +364,12 @@ footer a {
   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   color: transparent;
   -webkit-background-clip: text;
-  transition: 200ms;
+  transition: all 800ms;
 }
 
 .heart-rempli:hover {
   opacity: 1;
+  transition: all 800ms;
 }
 
 @keyframes bouton-menu {
@@ -456,12 +456,11 @@ footer a {
   height: 100%;
   z-index: 1;
   background: white;
-  display: none;
 }
 .container h1 {
   position: absolute;
-  left: 590px;
-  top: 410px;
+  left: 853px;
+  top: 430px;
 }
 
 .loader {
@@ -537,7 +536,25 @@ footer a {
   padding: 5%;
 }
 
-@media (min-width: 500px) {
+.loader_container {
+  animation: loader 3s forwards;
+}
+
+@keyframes loader {
+  0% {
+    opacity: 1;
+    visibility: inherit;
+  }
+  90% {
+    opacity: 1;
+    visibility: inherit;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@media (min-width: 576px) {
   .fonctionnement h2 {
     position: relative;
     left: 130px;
@@ -549,10 +566,7 @@ footer a {
     padding: 0px;
     background: white;
     justify-content: space-evenly;
-  }
-  .fonctionnement .bouton-fonction {
-    width: 20%;
-    height: 50px;
+    flex-wrap: wrap;
   }
   .restaurants .centre .container-resto {
     display: flex;
@@ -586,23 +600,21 @@ footer a {
     object-fit: cover;
   }
   .body-menu1 .menu {
-    width: 70%;
-    margin-left: 180px;
+    width: 60%;
+    margin: auto;
+    margin-top: -50px;
+  }
+  .body-menu1 .menu .container-menu {
+    width: 60%;
+    margin: auto;
   }
   .body-menu1 .menu h1 {
+    gap: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
   .body-menu1 .menu h1 span {
-    position: absolute;
-    right: 300px;
-  }
-  .body-menu1 .menu h2 {
-    margin-left: 180px;
-  }
-  .body-menu1 .menu .block-menu {
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 50px;
   }
 }
 

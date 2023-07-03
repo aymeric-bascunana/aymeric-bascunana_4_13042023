@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 576px) {
   .fonctionnement {
     h2 {
       position: relative;
@@ -11,11 +11,10 @@
       padding: 0px;
       background: white;
       justify-content: space-evenly;
+      flex-wrap: wrap;
     }
   }
   .fonctionnement .bouton-fonction {
-    width: 20%;
-    height: 50px;
   }
   .restaurants {
     .centre .container-resto {
@@ -56,24 +55,26 @@
     object-fit: cover;
   }
   .body-menu1 .menu {
-    width: 70%;
-    margin-left: 180px;
+    width: 60%;
+    margin: auto;
+    margin-top: -50px;
+  }
+  .body-menu1 .menu .container-menu {
+    width: 60%;
+    margin: auto;
   }
   .body-menu1 .menu h1 {
+    gap: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
   .body-menu1 .menu h1 span {
-    position: absolute;
-    right: 300px;
+    margin-right: 50px;
   }
 
   .body-menu1 .menu h2 {
-    margin-left: 180px;
   }
 
   .body-menu1 .menu .block-menu {
-    margin-right: 200px;
-    margin-left: 200px;
   }
 }
