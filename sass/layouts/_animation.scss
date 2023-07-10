@@ -33,22 +33,12 @@
   bottom: 10px;
 }
 
-//animation des coeurs des pages//
+//animation des coeurs des pages
 .animation-icones-page {
   height: 55px;
   right: 20px;
   bottom: 10px;
 
-  .fa-heart {
-    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-    color: transparent;
-    -webkit-background-clip: text;
-  }
-  .animation-icones {
-    height: 55px;
-    right: 20px;
-    bottom: 10px;
-  }
   .heart-vide {
     position: absolute;
     right: 100px;

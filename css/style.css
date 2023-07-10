@@ -352,16 +352,6 @@ footer a {
   right: 20px;
   bottom: 10px;
 }
-.animation-icones-page .fa-heart {
-  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-  color: transparent;
-  -webkit-background-clip: text;
-}
-.animation-icones-page .animation-icones {
-  height: 55px;
-  right: 20px;
-  bottom: 10px;
-}
 .animation-icones-page .heart-vide {
   position: absolute;
   right: 100px;
@@ -664,76 +654,13 @@ footer a {
   .body-menu1 .menu h1 span {
     margin-right: 50px;
   }
-  .fa-heart {
-    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-    color: transparent;
-    -webkit-background-clip: text;
-  }
-  .animation-icones {
-    height: 55px;
-    right: 20px;
-    bottom: 10px;
-  }
-  .animation-icones-page {
-    height: 55px;
-    right: 20px;
-    bottom: 10px;
-  }
-  .animation-icones-page .fa-heart {
-    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-    color: transparent;
-    -webkit-background-clip: text;
-  }
-  .animation-icones-page .animation-icones {
-    height: 55px;
-    right: 20px;
-    bottom: 10px;
-  }
   .animation-icones-page .heart-vide {
     position: absolute;
-    right: 100px;
-    top: 30px;
-    background: black;
-    -webkit-background-clip: text;
-    font-size: 24px;
+    right: 350px;
   }
   .animation-icones-page .heart-rempli {
     position: absolute;
-    opacity: 0;
-    right: 100px;
-    top: 30px;
-    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-    color: transparent;
-    -webkit-background-clip: text;
-    transition: all 800ms;
-    font-size: 24px;
-  }
-  .animation-icones-page .heart-rempli:hover {
-    opacity: 1;
-    transition: all 800ms;
-  }
-  .heart-vide {
-    position: absolute;
-    right: 20px;
-    top: 16px;
-    background: black;
-    -webkit-background-clip: text;
-    font-size: 24px;
-  }
-  .heart-rempli {
-    position: absolute;
-    opacity: 0;
-    right: 20px;
-    top: 16px;
-    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-    color: transparent;
-    -webkit-background-clip: text;
-    transition: all 800ms;
-    font-size: 24px;
-  }
-  .heart-rempli:hover {
-    opacity: 1;
-    transition: all 800ms;
+    right: 350px;
   }
 }
 
