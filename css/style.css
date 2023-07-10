@@ -95,7 +95,7 @@ body {
 }
 
 .fonctionnement {
-  margin: 10px;
+  margin: 30px;
   background: white;
 }
 .fonctionnement .bouton-fonction {
@@ -107,7 +107,6 @@ body {
   display: flex;
   align-items: baseline;
   margin-bottom: 20px;
-  width: 21%;
 }
 .fonctionnement p {
   border-radius: 15px 15px 15px 15px;
@@ -348,23 +347,50 @@ footer a {
   bottom: 10px;
 }
 
+.animation-icones-page {
+  height: 55px;
+  right: 20px;
+  bottom: 10px;
+}
+.animation-icones-page .heart-vide {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  background: black;
+  -webkit-background-clip: text;
+  font-size: 24px;
+}
+.animation-icones-page .heart-rempli {
+  position: absolute;
+  opacity: 0;
+  right: 100px;
+  top: 30px;
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  color: transparent;
+  -webkit-background-clip: text;
+  transition: all 800ms;
+  font-size: 24px;
+}
+
 .heart-vide {
   position: absolute;
   right: 20px;
-  top: 20px;
+  top: 16px;
   background: black;
   -webkit-background-clip: text;
+  font-size: 24px;
 }
 
 .heart-rempli {
   position: absolute;
   opacity: 0;
   right: 20px;
-  top: 20px;
+  top: 16px;
   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   color: transparent;
   -webkit-background-clip: text;
   transition: all 800ms;
+  font-size: 24px;
 }
 
 .heart-rempli:hover {
@@ -459,8 +485,8 @@ footer a {
 }
 .container h1 {
   position: absolute;
-  left: 853px;
-  top: 430px;
+  left: 100px;
+  top: 360px;
 }
 
 .loader {
@@ -555,6 +581,11 @@ footer a {
   }
 }
 @media (min-width: 576px) {
+  .container h1 {
+    position: absolute;
+    left: 853px;
+    top: 430px;
+  }
   .fonctionnement h2 {
     position: relative;
     left: 130px;
@@ -567,6 +598,9 @@ footer a {
     background: white;
     justify-content: space-evenly;
     flex-wrap: wrap;
+  }
+  .fonctionnement .bouton-fonction {
+    width: 21%;
   }
   .restaurants .centre .container-resto {
     display: flex;
@@ -609,12 +643,36 @@ footer a {
     margin: auto;
   }
   .body-menu1 .menu h1 {
-    gap: 50px;
+    gap: 130px;
     display: flex;
     justify-content: center;
   }
   .body-menu1 .menu h1 span {
     margin-right: 50px;
+  }
+  .animation-icones-page {
+    height: 55px;
+    right: 20px;
+    bottom: 10px;
+  }
+  .animation-icones-page .heart-vide {
+    position: absolute;
+    right: 350px;
+    top: 30px;
+    background: black;
+    -webkit-background-clip: text;
+    font-size: 24px;
+  }
+  .animation-icones-page .heart-rempli {
+    position: absolute;
+    opacity: 0;
+    right: 350px;
+    top: 30px;
+    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+    color: transparent;
+    -webkit-background-clip: text;
+    transition: all 800ms;
+    font-size: 24px;
   }
 }
 

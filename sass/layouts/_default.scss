@@ -21,7 +21,7 @@ body {
 }
 
 .fonctionnement {
-  margin: 10px;
+  margin: 30px;
   background: white;
 
   .bouton-fonction {
@@ -33,7 +33,6 @@ body {
     display: flex;
     align-items: baseline;
     margin-bottom: 20px;
-    width: 21%;
   }
 
   p {
@@ -142,9 +141,6 @@ footer {
       margin-left: 10px;
       display: flex;
       gap: 50px;
-
-      span {
-      }
 
       .heart-page {
         color: black;

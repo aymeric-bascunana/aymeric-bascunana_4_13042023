@@ -1,4 +1,12 @@
 @media (min-width: 576px) {
+  .container {
+    h1 {
+      position: absolute;
+      left: 853px;
+      top: 430px;
+    }
+  }
+
   .fonctionnement {
     h2 {
       position: relative;
@@ -15,6 +23,7 @@
     }
   }
   .fonctionnement .bouton-fonction {
+    width: 21%;
   }
   .restaurants {
     .centre .container-resto {
@@ -64,7 +73,7 @@
     margin: auto;
   }
   .body-menu1 .menu h1 {
-    gap: 50px;
+    gap: 130px;
     display: flex;
     justify-content: center;
   }
@@ -72,9 +81,31 @@
     margin-right: 50px;
   }
 
-  .body-menu1 .menu h2 {
-  }
+  //parti responsive du coeur//
+  .animation-icones-page {
+    height: 55px;
+    right: 20px;
+    bottom: 10px;
 
-  .body-menu1 .menu .block-menu {
+    .heart-vide {
+      position: absolute;
+      right: 350px;
+      top: 30px;
+      background: black;
+      -webkit-background-clip: text;
+      font-size: 24px;
+    }
+
+    .heart-rempli {
+      position: absolute;
+      opacity: 0;
+      right: 350px;
+      top: 30px;
+      background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+      color: transparent;
+      -webkit-background-clip: text;
+      transition: all 800ms;
+      font-size: 24px;
+    }
   }
 }

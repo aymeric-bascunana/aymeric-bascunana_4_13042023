@@ -32,23 +32,52 @@
   right: 20px;
   bottom: 10px;
 }
+
+.animation-icones-page {
+  height: 55px;
+  right: 20px;
+  bottom: 10px;
+
+  .heart-vide {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    background: black;
+    -webkit-background-clip: text;
+    font-size: 24px;
+  }
+
+  .heart-rempli {
+    position: absolute;
+    opacity: 0;
+    right: 100px;
+    top: 30px;
+    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+    color: transparent;
+    -webkit-background-clip: text;
+    transition: all 800ms;
+    font-size: 24px;
+  }
+}
 .heart-vide {
   position: absolute;
   right: 20px;
-  top: 20px;
+  top: 16px;
   background: black;
   -webkit-background-clip: text;
+  font-size: 24px;
 }
 
 .heart-rempli {
   position: absolute;
   opacity: 0;
   right: 20px;
-  top: 20px;
+  top: 16px;
   background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   color: transparent;
   -webkit-background-clip: text;
   transition: all 800ms;
+  font-size: 24px;
 }
 
 .heart-rempli:hover {
@@ -149,8 +178,8 @@
 
   h1 {
     position: absolute;
-    left: 853px;
-    top: 430px;
+    left: 100px;
+    top: 360px;
   }
 }
 
